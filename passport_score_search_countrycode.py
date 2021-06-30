@@ -1,5 +1,3 @@
-import requests
-import json
 import csv
 
 def country_code_search():

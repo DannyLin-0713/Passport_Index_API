@@ -5,7 +5,8 @@ import csv
 def indexreq():
     vcode = 1
     while vcode == 1:
-        countrycode = str(input('\nplease input the country code\n'))
+        countrycode = str(input('\nplease input the first country code\n'))
+        countrycode2 = str(input('\nplease input the second country code\n'))
         url = "https://www.henleyglobal.com/proxy?url=https://www.henleypassportindex.com/fetch?url=passports%2F" + countrycode  +"%2Frankings"
         payload={}
         headers = {
